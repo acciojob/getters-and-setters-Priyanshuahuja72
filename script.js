@@ -8,16 +8,24 @@ class Person {
 }
 
 class Student extends Person {
+	constructor(a , b)
+	{
+		super(a , b);
+	}
 	study()
 	{
-		console.log(this.name + "is studying");
+		console.log(this.a + "is studying");
 	}
 }
 
 class Teacher extends Person {
+	constructor(a , b)
+	{
+		super(a , b);
+	}
 	teach()
 	{
-		console.log(this.name + "is teaching");
+		console.log(this.a + "is teaching");
 	}
 }
 
