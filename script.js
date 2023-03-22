@@ -5,6 +5,14 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
+	get getName(name)
+	{
+		this.name = name;
+	}
+	get setage(age)
+	{
+		this.age = age;
+	}
 }
 
 class Student extends Person {
