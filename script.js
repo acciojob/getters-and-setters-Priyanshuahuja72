@@ -8,9 +8,10 @@ class Person {
 }
 
 class Student extends Person {
-	constructor(a , b)
+	constructor(a , age)
 	{
-		super(a , b);
+		super(a , age);
+		this.age = age;
 	}
 	study()
 	{
@@ -21,7 +22,8 @@ class Student extends Person {
 class Teacher extends Person {
 	constructor(a , b)
 	{
-		super(a , b);
+		super(a , age);
+		this.age = age;
 	}
 	teach()
 	{
