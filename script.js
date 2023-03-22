@@ -5,10 +5,10 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
-	get getName()
-	{
-		return this.name;
-	}
+	// get getName()
+	// {
+	// 	return this.name;
+	// }
 	get setage(age)
 	{
 		this.age = age;
@@ -21,7 +21,7 @@ class Student extends Person {
 		super(a , age);
 		this.age = age;
 	}
-	study()
+	get study()
 	{
 		console.log(this.a + "is studying");
 	}
@@ -33,7 +33,7 @@ class Teacher extends Person {
 		super(a , age);
 		this.age = age;
 	}
-	teach()
+	get teach()
 	{
 		console.log(this.a + "is teaching");
 	}
