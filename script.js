@@ -2,24 +2,24 @@
 class Person {
 	constructor(name , age)
 	{
-		this.name = name;
-		this.age = age;
+		this._name = name;
+		this._age = age;
 	}
-	// get getName()
-	// {
-	// 	return this.name;
-	// }
-	get setage(age)
+	get getName()
 	{
-		this.age = age;
+		return this._name;
+	}
+	set setage(age)
+	{
+		this._age = age;
 	}
 }
 
 class Student extends Person {
 	constructor(a , age)
 	{
-		super(a , age);
-		this.age = age;
+		super.getName(this.a);
+		super.setage(this.age) = age;
 	}
 	get study()
 	{
