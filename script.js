@@ -16,26 +16,27 @@ class Person {
 }
 
 class Student extends Person {
-	constructor(a , age)
+	constructor(name , age)
 	{
-		super.getName(this.a);
-		super.setage(this.age) = age;
+		// super.getName(this.name);
+		// super.setage(this.age) = age;
+		super(name,age);
 	}
-	get study()
+	study()
 	{
-		console.log(this.a + "is studying");
+		console.log(this.name + "is studying");
 	}
 }
 
 class Teacher extends Person {
-	constructor(a , b)
+	constructor(name , age)
 	{
-		super(a , age);
-		this.age = age;
+		super(name , age);
+		// this.age = age;
 	}
-	get teach()
+	teach()
 	{
-		console.log(this.a + "is teaching");
+		console.log(this.name + "is teaching");
 	}
 }
 
