@@ -22,6 +22,9 @@ class Student extends Person {
 		// super.setage(this.age) = age;
 		super(name,age);
 	}
+	set setage(newAge){
+		super.age = newAge;
+	}
 	study()
 	{
 		console.log(this.name + " is studying");
@@ -33,6 +36,9 @@ class Teacher extends Person {
 	{
 		super(name , age);
 		// this.age = age;
+	}
+	set setage(newAge){
+		super.age = newAge;
 	}
 	teach()
 	{
