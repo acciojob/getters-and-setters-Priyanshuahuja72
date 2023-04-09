@@ -9,7 +9,7 @@ class Person {
 	{
 		return this.name;
 	}
-	set setage(newAge)
+     setage(newAge)
 	{
 		this.age = newAge;
 	}
